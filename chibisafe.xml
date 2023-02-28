@@ -20,7 +20,7 @@
     User list and control panel&#xD;
 </Overview>
   <Category>Backup: Cloud: Downloaders: MediaApp:Video MediaApp:Photos</Category>
-  <WebUI>http://[IP]:[PORT:8056]</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
   <Icon>https://imgur.com/5iyrAY7.png</Icon>
   <ExtraParams/>
