@@ -17,18 +17,42 @@
     Chunk uploads enabled by default to be able to handle big boi files.&#xD;
     API Key support so you can integrate the service with whatever you desire.&#xD;
     Albums, tags and Discord-like search function&#xD;
-    User list and control panel&#xD;
-</Overview>
+    User list and control panel</Overview>
   <Category>Backup: Cloud: Downloaders: MediaApp:Video MediaApp:Photos</Category>
-  <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <TemplateURL/>
-  <Icon>https://imgur.com/5iyrAY7.png</Icon>
+  <WebUI>http://[IP]:[PORT:8056]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/killforby/chibisafe/master/chibisafe.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/chibisafe/chibisafe/master/src/site/assets/images/logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
-  <CPUset>0,10,11,13</CPUset>
-  <DateInstalled>1677538740</DateInstalled>
+  <CPUset/>
+  <DateInstalled>1677633627</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Host Port 1" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8056</Config>
+  <Config Name="Host Port 1" Target="5000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8056</Config>
+  <Config Name="path" Target="/usr/chibisafe/uploads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/chibisafe</Config>
+  <Config Name="OVERWRITE_SETTINGS" Target="  OVERWRITE_SETTINGS" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name=" CHUNK_SIZE" Target=" CHUNK_SIZE" Default="90" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">90</Config>
+  <Config Name="ROUTE_PREFIX" Target="ROUTE_PREFIX" Default="/api" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/api</Config>
+  <Config Name="SERVICE_NAME" Target="SERVICE_NAME" Default="chibisafe" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">chibisafe</Config>
+  <Config Name="USER_ACCOUNTS" Target="USER_ACCOUNTS" Default="true" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name=" ADMIN_ACCOUNT" Target=" ADMIN_ACCOUNT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PUBLIC_MODE" Target="PUBLIC_MODE" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="ADMIN_PASSWORD" Target="ADMIN_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="DB_CLIENT" Target="DB_CLIENT" Default="sqlite3" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">sqlite3</Config>
+  <Config Name="SERVER_PORT" Target="SERVER_PORT" Default="5000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5000</Config>
+  <Config Name=" DOMAIN" Target=" DOMAIN" Default="http://localhost:5000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://localhost:5000</Config>
+  <Config Name="SERVICE_NAME" Target="SERVICE_NAME" Default="chibisafe" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">chibisafe</Config>
+  <Config Name="DB_HOST" Target="DB_HOST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="DB_USER" Target="DB_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="DB_DATABASE" Target="DB_DATABASE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="RATE_LIMIT_WINDOW" Target="RATE_LIMIT_WINDOW" Default="2" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">2</Config>
+  <Config Name="RATE_LIMIT_MAX" Target="RATE_LIMIT_MAX" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5</Config>
+  <Config Name="BLOCKED_EXTENSIONS" Target="BLOCKED_EXTENSIONS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">.jar,.exe,.msi,.com,.bat,.cmd,.scr,.ps1,.sh</Config>
+  <Config Name="MAX_LINKS_PER_ALBUM" Target="MAX_LINKS_PER_ALBUM" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5</Config>
+  <Config Name="META_THEME_COLOR" Target="META_THEME_COLOR" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">#20222b</Config>
+  <Config Name="META_TWITTER_HANDLE" Target="META_TWITTER_HANDLE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="SERVER_PORT" Target="SERVER_PORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5000</Config>
+  <Config Name="DOMAIN" Target="DOMAIN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://localhost:5000</Config>
 </Container>
