@@ -43,7 +43,7 @@
   <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="DB_DATABASE" Target="DB_DATABASE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="SERVER_PORT" Target="SERVER_PORT" Default="5000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5000</Config>
-  <Config Name="DOMAIN" Target="DOMAIN" Default="" Mode="" Description="http://IPUNRAID:PORT" Type="Variable" Display="always" Required="true" Mask="false">http://192.168.1.72:8056</Config>
+  <Config Name="DOMAIN" Target="DOMAIN" Default="" Mode="" Description="http://IPUNRAID:PORT" Type="Variable" Display="always" Required="true" Mask="false">http://IPUNRAID:PORT</Config>
   <Config Name="ROUTE_PREFIX" Target="ROUTE_PREFIX" Default="/api" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">/api</Config>
   <Config Name="OVERWRITE_SETTINGS" Target="  OVERWRITE_SETTINGS" Default="false" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
   <Config Name=" CHUNK_SIZE" Target=" CHUNK_SIZE" Default="90" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">90</Config>
