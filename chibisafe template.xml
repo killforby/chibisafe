@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Chibisafe</Name>
+  <Repository>pikatsuto/chibisafe</Repository>
+  <Registry>https://hub.docker.com/r/pikatsuto/chibisafe</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/135688-plugin-support-chibisafe/</Support>
+  <Project>https://github.com/chibisafe/chibisafe</Project>
+  <Overview>Chibisafe is a file uploader service written in node that aims to to be easy to use and easy to set up. It's mainly intended for images and videos, but it accepts anything you throw at it.&#xD;
+&#xD;
+    You can run it in public or private mode, making it so only people with user accounts can upload files as well as controlling if user signup is enabled or not.&#xD;
+    Out of the box support for ShareX configuration letting you upload screenshots and screenrecordings directly to your chibisafe instance.&#xD;
+    Browser extension to be able to right click any image/video from any website and upload it directly to your chibisafe instance.&#xD;
+    Chunk uploads enabled by default to be able to handle big boi files.&#xD;
+    API Key support so you can integrate the service with whatever you desire.&#xD;
+    Albums, tags and Discord-like search function&#xD;
+    User list and control panel&#xD;
+&#xD;
+</Overview>
+  <Category>Backup: Cloud: Downloaders: MediaApp:Video MediaApp:Photos</Category>
+  <WebUI>http://[IP]:[PORT:8056]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/killforby/chibisafe/master/chibisafe.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/chibisafe/chibisafe/master/src/site/assets/images/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1677885338</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>! For the first configuration please enter admin/ admin, go to users = &amp;gt; New users= &amp;gt; enter user / password give it administrator permissions according to your convenience !</Requires>
+  <Config Name="Host Port 1" Target="5000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8056</Config>
+  <Config Name="path" Target="/usr/chibisafe/uploads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/chibisafe</Config>
+  <Config Name=" ADMIN_ACCOUNT" Target=" ADMIN_ACCOUNT" Default="admin" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">admin</Config>
+  <Config Name="PUBLIC_MODE" Target="PUBLIC_MODE" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="ADMIN_PASSWORD" Target="ADMIN_PASSWORD" Default="admin" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true">admin</Config>
+  <Config Name="DB_CLIENT" Target="DB_CLIENT" Default="sqlite3" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">sqlite3</Config>
+  <Config Name="SERVICE_NAME" Target="SERVICE_NAME" Default="chibisafe" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">chibisafe</Config>
+  <Config Name="DB_HOST" Target="DB_HOST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="DB_USER" Target="DB_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="DB_DATABASE" Target="DB_DATABASE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="SERVER_PORT" Target="SERVER_PORT" Default="5000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5000</Config>
+  <Config Name="DOMAIN" Target="DOMAIN" Default="" Mode="" Description="http://IPUNRAID:PORT" Type="Variable" Display="always" Required="true" Mask="false">http://192.168.1.72:8056</Config>
+  <Config Name="ROUTE_PREFIX" Target="ROUTE_PREFIX" Default="/api" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">/api</Config>
+  <Config Name="OVERWRITE_SETTINGS" Target="  OVERWRITE_SETTINGS" Default="false" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
+  <Config Name=" CHUNK_SIZE" Target=" CHUNK_SIZE" Default="90" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">90</Config>
+  <Config Name="USER_ACCOUNTS" Target="USER_ACCOUNTS" Default="true" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">true</Config>
+  <Config Name="RATE_LIMIT_WINDOW" Target="RATE_LIMIT_WINDOW" Default="2" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">2</Config>
+  <Config Name="RATE_LIMIT_MAX" Target="RATE_LIMIT_MAX" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">5</Config>
+  <Config Name="MAX_LINKS_PER_ALBUM" Target="MAX_LINKS_PER_ALBUM" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">5</Config>
+  <Config Name="META_THEME_COLOR" Target="META_THEME_COLOR" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">#20222b</Config>
+  <Config Name="BLOCKED_EXTENSIONS" Target="BLOCKED_EXTENSIONS" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">.jar,.exe,.msi,.com,.bat,.cmd,.scr,.ps1,.sh</Config>
+  <Config Name="META_TWITTER_HANDLE" Target="META_TWITTER_HANDLE" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+</Container>
