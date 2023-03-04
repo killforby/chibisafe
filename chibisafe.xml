@@ -30,11 +30,13 @@
   <DateInstalled>1677885338</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires>! For the first configuration please enter admin/ admin, go to users = &amp;gt; New users= &amp;gt; enter user / password give it administrator permissions according to your convenience !</Requires>
+  <Requires>!For the first configuration please enter admin/ admin, go to users = &amp;gt; New users= &amp;gt; enter user / password give it administrator permissions according to your convenience !&#xD;
+&#xD;
+! Modify the variable DOMAIN " http://IPUNRAID:PORT " to be able to access chibisafe !</Requires>
   <Config Name="Host Port 1" Target="5000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8056</Config>
   <Config Name="path" Target="/usr/chibisafe/uploads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/chibisafe</Config>
   <Config Name=" ADMIN_ACCOUNT" Target=" ADMIN_ACCOUNT" Default="admin" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">admin</Config>
-  <Config Name="PUBLIC_MODE" Target="PUBLIC_MODE" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="PUBLIC_MODE" Target="PUBLIC_MODE" Default="true" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
   <Config Name="ADMIN_PASSWORD" Target="ADMIN_PASSWORD" Default="admin" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true">admin</Config>
   <Config Name="DB_CLIENT" Target="DB_CLIENT" Default="sqlite3" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">sqlite3</Config>
   <Config Name="SERVICE_NAME" Target="SERVICE_NAME" Default="chibisafe" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">chibisafe</Config>
