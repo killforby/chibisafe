@@ -1,10 +1,11 @@
 # chibisafe
+![image](https://user-images.githubusercontent.com/94224508/222895727-0f995baa-a152-44ae-afbf-eea9c0a6af79.png)
 
 TEMPLATE POUR UNRAID
 
  Chibisafe is a file download service written in Java that aims to be easy to use and easy to configure. It is mainly intended for images and videos, but it accepts anything you throw at it.
 
-    You can run it in public or private mode, so that only people with user accounts can upload files and control whether user registration is enabled or not.
+   You can run it in public or private mode, so that only people with user accounts can upload files and control whether user registration is enabled or not.
     Out-of-the-box support for shared configuration allowing you to upload screenshots and screen recordings directly to your chibisafe instance.
     Browser extension to be able to right-click on any image/video from any website and download it directly to your chibisafe instance.
     Song downloads enabled by default to be able to manage large boi files.
@@ -26,7 +27,7 @@ TEMPLATE POUR UNRAID
 
 Chibisafe est un service de téléchargement de fichiers écrit en nœud qui vise à être facile à utiliser et facile à configurer. Il est principalement destiné aux images et aux vidéos, mais il accepte tout ce que vous lui lancez.
 
-    Vous pouvez l'exécuter en mode public ou privé, de sorte que seules les personnes disposant de comptes d'utilisateurs puissent télécharger des fichiers et contrôler si l'inscription des utilisateurs est activée ou non.
+Vous pouvez l'exécuter en mode public ou privé, de sorte que seules les personnes disposant de comptes d'utilisateurs puissent télécharger des fichiers et contrôler si l'inscription des utilisateurs est activée ou non.
     Prise en charge prête à l'emploi de la configuration partagée vous permettant de télécharger des captures d'écran et des enregistrements d'écran directement sur votre instance chibisafe.
     Extension de navigateur pour pouvoir cliquer avec le bouton droit sur n'importe quelle image/vidéo de n'importe quel site Web et la télécharger directement sur votre instance chibisafe.
     Téléchargements de morceaux activés par défaut pour pouvoir gérer de gros fichiers .
