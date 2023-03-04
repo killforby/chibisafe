@@ -1,13 +1,41 @@
 # chibisafe
 
-What is Chibisafe?
+TEMPLATE POUR UNRAID
 
-Chibisafe is a file uploader service written in node that aims to to be easy to use and easy to set up. It's mainly intended for images and videos, but it accepts anything you throw at it.
+ Chibisafe is a file download service written in Java that aims to be easy to use and easy to configure. It is mainly intended for images and videos, but it accepts anything you throw at it.
 
-    You can run it in public or private mode, making it so only people with user accounts can upload files as well as controlling if user signup is enabled or not.
-    Out of the box support for ShareX configuration letting you upload screenshots and screenrecordings directly to your chibisafe instance.
-    Browser extension to be able to right click any image/video from any website and upload it directly to your chibisafe instance.
-    Chunk uploads enabled by default to be able to handle big boi files.
-    API Key support so you can integrate the service with whatever you desire.
+    You can run it in public or private mode, so that only people with user accounts can upload files and control whether user registration is enabled or not.
+    Out-of-the-box support for shared configuration allowing you to upload screenshots and screen recordings directly to your chibisafe instance.
+    Browser extension to be able to right-click on any image/video from any website and download it directly to your chibisafe instance.
+    Song downloads enabled by default to be able to manage large boi files.
+    Support for API keys so that you can integrate the service with anything you desire.
     Albums, tags and Discord-like search function
     User list and control panel
+
+ 
+
+! For the first configuration please enter admin / admin, go to users = > New users= > enter the user / password give him administrator permissions according to your convenience!
+
+! Modify the DOMAIN variable "http://IPUNRAID:PORT " to be able to access chibisafe!
+
+ 
+
+ 
+
+ 
+
+Chibisafe est un service de téléchargement de fichiers écrit en nœud qui vise à être facile à utiliser et facile à configurer. Il est principalement destiné aux images et aux vidéos, mais il accepte tout ce que vous lui lancez.
+
+    Vous pouvez l'exécuter en mode public ou privé, de sorte que seules les personnes disposant de comptes d'utilisateurs puissent télécharger des fichiers et contrôler si l'inscription des utilisateurs est activée ou non.
+    Prise en charge prête à l'emploi de la configuration partagée vous permettant de télécharger des captures d'écran et des enregistrements d'écran directement sur votre instance chibisafe.
+    Extension de navigateur pour pouvoir cliquer avec le bouton droit sur n'importe quelle image/vidéo de n'importe quel site Web et la télécharger directement sur votre instance chibisafe.
+    Téléchargements de morceaux activés par défaut pour pouvoir gérer de gros fichiers .
+    Prise en charge des clés API afin que vous puissiez intégrer le service avec tout ce que vous désirez.
+    Albums, tags et fonction de recherche de type Discord
+    Liste d'utilisateurs et panneau de configuration
+
+ 
+
+! Pour la première configuration veuillez entrer admin / admin, allez dans utilisateurs = > Nouveaux utilisateurs= > entrez l'utilisateur / mot de passe donnez-lui les autorisations d'administrateur selon votre convenance !
+
+! Modifier la variable DOMAIN "http://IPUNRAID:PORT" pour pouvoir accéder à chibisafe ! 
